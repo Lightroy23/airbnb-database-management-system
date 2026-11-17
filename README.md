@@ -4,6 +4,21 @@ A relational database management system for an Airbnb-style accommodation platfo
 This project was developed to demonstrate database design principles, relational modeling, SQL programming, and database implementation. It includes database creation, normalization, constraints, indexes, triggers, sample data, and SQL queries for data retrieval and analysis.
 ---
 
+## 📑 Table of Contents
+
+- [Project Overview](#-project-overview)
+- [Learning Objectives](#-learning-objectives)
+- [Features](#-features)
+- [Database Tables](#-database-tables)
+- [Database Design](#-database-design)
+- [Technologies Used](#-technologies-used)
+- [Project Structure](#-project-structure)
+- [Installation Guide](#-installation-guide)
+- [Sample SQL Queries](#-sample-sql-queries)
+- [Future Improvements](#-future-improvements)
+- [Author](#-author)
+
+  
 ## 📖 Project Overview
 
 The Airbnb Database Management System is designed to simulate the operations of an online accommodation booking platform similar to Airbnb.
@@ -39,12 +54,6 @@ This project demonstrates:
 - Trigger implementation
 - SQL querying and reporting
 
-## 💻 Technologies Used
-
-- MySQL 8.0
-- MySQL Workbench
-- SQL
-
 ## ✨ Features
 
 - User Management
@@ -77,6 +86,48 @@ The project consists of the following main tables:
 | Reviews | Review |
 | Support | Support Ticket |
 
+## 🗃️ Database Design
+
+The database follows relational database design principles and has been normalized to reduce redundancy and improve data integrity.
+
+The project includes:
+
+- Primary Keys
+- Foreign Keys
+- Unique Constraints
+- Check Constraints
+- Composite Keys
+- Indexes
+- Triggers
+- Referential Integrity
+
+## 📊 Entity Relationship Diagram (ERD)
+
+The Entity Relationship Diagram illustrates the relationships between the entities in the database.
+
+> **Note:** The ER Diagram will be added to the `documentation` folder.
+
+```
+documentation/
+    ER_Diagram.png
+```
+
+## 💻 Technologies Used
+
+- MySQL 8.0
+- MySQL Workbench
+- SQL
+
+## ⚙️ Installation Guide
+
+1. Clone this repository or download the project files.
+2. Open MySQL Workbench.
+3. Open the SQL script located in the `sql` folder.
+4. Execute the SQL script.
+5. Refresh the schema.
+6. Verify that all tables have been created successfully.
+7. Run the sample SQL queries.
+
 ## 📂 Project Structure
 
 ```text
@@ -87,3 +138,47 @@ airbnb-database-management-system
 ├── documentation
 └── screenshots
 ```
+
+## 🔍 Sample SQL Queries
+
+Retrieve all bookings:
+
+```sql
+SELECT *
+FROM booking;
+```
+
+Retrieve all listings:
+
+```sql
+SELECT *
+FROM listing;
+```
+
+Retrieve all payments:
+
+```sql
+SELECT *
+FROM payment;
+```
+
+## 🚀 Future Improvements
+
+Possible enhancements include:
+
+- User authentication
+- Stored procedures
+- Views
+- Backup and recovery procedures
+- Performance optimization
+- Dashboard integration using Power BI
+- API integration
+- Cloud database deployment
+
+## 👩‍💻 Author
+
+**Helen Umeano**
+
+- GitHub: https://github.com/Lightroy23
+
+This project was developed as part of a Database Management Systems course and demonstrates practical SQL database design and implementation using MySQL.
