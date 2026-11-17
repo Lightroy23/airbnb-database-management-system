@@ -45,6 +45,38 @@ This project demonstrates:
 - MySQL Workbench
 - SQL
 
+## ✨ Features
+
+- User Management
+- Host and Guest Management
+- Property Listings
+- Booking Management
+- Payment Processing
+- Review System
+- Messaging System
+- Friend Connections
+- Support Ticket Management
+- Availability Tracking
+- Database Constraints
+- Foreign Keys
+- Triggers
+- Sample Data
+
+## 🗄️ Database Tables
+
+The project consists of the following main tables:
+
+| Category | Tables |
+|----------|--------|
+| User Management | User, Host, Guest, Admin |
+| Location | Continent, Country, City, Address |
+| Property | Property, Listing, Listing Photo, Listing Amenity, Amenity |
+| Booking | Availability, Booking, Booking Status |
+| Payments | Payment, Payment Method |
+| Communication | Message, Friend Connection |
+| Reviews | Review |
+| Support | Support Ticket |
+
 ## 📂 Project Structure
 
 ```text
